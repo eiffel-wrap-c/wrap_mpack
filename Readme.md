@@ -20,27 +20,19 @@ Using the [amalgamation package](https://github.com/ludocode/mpack/releases), so
 
 #### Linux
 
+	cd library
+	./generator.sh
+
 #### Windows
 
-
+	cd library
+	generator.bat
 
 ## Examples 
 
 * [Writer API](./examples/write_api) 		`shows how to encodes structured data to MessagePack.`
 * [Node API](./examples/node_api)	`shows how to parse a chunk of MessagePack data into an immutable tree of dynamically-typed nodes.` 
 
-
-### How to compile the C library glue code.
-
-Before to use the examples you will need to compile the C glue code, go to 
-
-	library/generated_wrapper/c/src
-
-and run
-
-	finish_freezing --library
-
-It will copy the C lib `eif_mpack.a` to `$ECF_CONFIG_PATH/C/spec/$(ISE_PLATFORM)/lib/`  or `eif_mpack.lib`  to `$ECF_CONFIG_PATH/C/spec/$ISE_C_COMPILER/$ISE_PLATFORM/lib` 
 
 
 
