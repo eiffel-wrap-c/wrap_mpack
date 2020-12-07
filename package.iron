@@ -1,0 +1,20 @@
+package wrap_mpack
+
+project
+	wrap_mpack = "library/wrap_mpack.ecf"
+
+note
+	title: Eiffel wrap_mpack
+	description: "[
+	wrap_mpack is an Eiffel binding of mpack.
+	
+	mpack is a C implementation of an encoder and decoder for the [MessagePack](https://msgpack.org/) serialization format.
+	]"
+
+	tags: msgpack, library , wrapc, messagepack 
+	license: EFL
+	copyright: Copyright (c)  2020 Javier Velilla, Eiffel Software and others.
+	link[license]: "license" "https://github.com/eiffel-wrap-c/wrap_mapck/blob/master/license.lic"
+	link[github]: "project" https://github.com/eiffel-wrap-c/wrap_mpack
+
+end
